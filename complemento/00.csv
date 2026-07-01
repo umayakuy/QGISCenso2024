@@ -1,0 +1,344 @@
+﻿D;DEPARTAMENTO;P;PROVINCIA;M;MUNICIPIO;COD
+1;Chuquisaca;1;Azurduy;1;Azurduy;U1011
+1;Chuquisaca;1;Azurduy;2;Tarvita;U1012
+1;Chuquisaca;2;Belisario Boeto;1;Villa Serrano;U1021
+1;Chuquisaca;3;Hernando Siles;1;Huacareta;U1031
+1;Chuquisaca;3;Hernando Siles;2;Monteagudo;U1032
+1;Chuquisaca;4;Luis Calvo;1;Huacaya (Autonomía Guaraní Chaqueño De Huacaya);U1041
+1;Chuquisaca;4;Luis Calvo;2;Macharetí;U1042
+1;Chuquisaca;4;Luis Calvo;3;Villa Vaca Guzmán;U1043
+1;Chuquisaca;5;Nor Cinti;1;Camargo;U1051
+1;Chuquisaca;5;Nor Cinti;2;Incahuasi;U1052
+1;Chuquisaca;5;Nor Cinti;3;San Lucas;U1053
+1;Chuquisaca;5;Nor Cinti;4;Villa Charcas;U1054
+1;Chuquisaca;6;Oropeza;1;Poroma;U1061
+1;Chuquisaca;6;Oropeza;2;Sucre;U1062
+1;Chuquisaca;6;Oropeza;3;Yotala;U1063
+1;Chuquisaca;7;Sur Cinti;1;Culpina;U1071
+1;Chuquisaca;7;Sur Cinti;2;Las Carreras;U1072
+1;Chuquisaca;7;Sur Cinti;3;Villa Abecia;U1073
+1;Chuquisaca;8;Tomina;1;Alcalá;U1081
+1;Chuquisaca;8;Tomina;2;El Villar;U1082
+1;Chuquisaca;8;Tomina;3;Padilla;U1083
+1;Chuquisaca;8;Tomina;4;Sopachuy;U1084
+1;Chuquisaca;8;Tomina;5;Tomina;U1085
+1;Chuquisaca;9;Yamparáez;1;Tarabuco;U1091
+1;Chuquisaca;9;Yamparáez;2;Yamparáez;U1092
+1;Chuquisaca;10;Zudáñez;1;Icla;U1101
+1;Chuquisaca;10;Zudáñez;2;Mojocoya;U1102
+1;Chuquisaca;10;Zudáñez;3;Presto;U1103
+1;Chuquisaca;10;Zudáñez;4;Zudáñez;U1104
+2;La Paz;1;Abel Iturralde;1;Ixiamas;U2011
+2;La Paz;1;Abel Iturralde;2;San Buenaventura;U2012
+2;La Paz;2;Aroma;1;Ayo Ayo;U2021
+2;La Paz;2;Aroma;2;Calamarca;U2022
+2;La Paz;2;Aroma;3;Collana;U2023
+2;La Paz;2;Aroma;4;Colquencha;U2024
+2;La Paz;2;Aroma;5;Patacamaya;U2025
+2;La Paz;2;Aroma;6;Sicasica;U2026
+2;La Paz;2;Aroma;7;Umala;U2027
+2;La Paz;3;Bautista Saavedra;1;Charazani;U2031
+2;La Paz;3;Bautista Saavedra;2;Curva;U2032
+2;La Paz;4;Camacho;1;Escoma;U2041
+2;La Paz;4;Camacho;2;Humanata;U2042
+2;La Paz;4;Camacho;3;Mocomoco;U2043
+2;La Paz;4;Camacho;4;Puerto Acosta;U2044
+2;La Paz;4;Camacho;5;Puerto Mayor De Carabuco;U2045
+2;La Paz;5;Caranavi;1;Alto Beni;U2051
+2;La Paz;5;Caranavi;2;Caranavi;U2052
+2;La Paz;6;Franz Tamayo;1;Apolo;U2061
+2;La Paz;6;Franz Tamayo;2;Pelechuco;U2062
+2;La Paz;7;General José Manuel Pando;1;Catacora;U2071
+2;La Paz;7;General José Manuel Pando;2;Santiago De Machaca;U2072
+2;La Paz;8;Gualberto Villarroel;1;Chacarilla;U2081
+2;La Paz;8;Gualberto Villarroel;2;Papel Pampa;U2082
+2;La Paz;8;Gualberto Villarroel;3;San Pedro De Curahuara;U2083
+2;La Paz;9;Ingavi;1;Desaguadero;U2091
+2;La Paz;9;Ingavi;2;Jesús De Machaka;U2092
+2;La Paz;9;Ingavi;3;La (Marka) San Andrés De Machaca;U2093
+2;La Paz;9;Ingavi;4;Puerto Mayor De Guaqui;U2094
+2;La Paz;9;Ingavi;5;Taraco;U2095
+2;La Paz;9;Ingavi;6;Tiahuanacu;U2096
+2;La Paz;9;Ingavi;7;Viacha;U2097
+2;La Paz;10;Inquisivi;1;Cajuata;U2101
+2;La Paz;10;Inquisivi;2;Colquiri;U2102
+2;La Paz;10;Inquisivi;3;Ichoca;U2103
+2;La Paz;10;Inquisivi;4;Inquisivi;U2104
+2;La Paz;10;Inquisivi;5;Quime;U2105
+2;La Paz;10;Inquisivi;6;Villa Libertad Licoma;U2106
+2;La Paz;11;Larecaja;1;Combaya;U2111
+2;La Paz;11;Larecaja;2;Guanay;U2112
+2;La Paz;11;Larecaja;3;Mapiri;U2113
+2;La Paz;11;Larecaja;4;Quiabaya;U2114
+2;La Paz;11;Larecaja;5;Sorata;U2115
+2;La Paz;11;Larecaja;6;Tacacoma;U2116
+2;La Paz;11;Larecaja;7;Teoponte;U2117
+2;La Paz;11;Larecaja;8;Tipuani;U2118
+2;La Paz;12;Loayza;1;Cairoma;U2121
+2;La Paz;12;Loayza;2;Luribay;U2122
+2;La Paz;12;Loayza;3;Malla;U2123
+2;La Paz;12;Loayza;4;Sapahaqui;U2124
+2;La Paz;12;Loayza;5;Yaco;U2125
+2;La Paz;13;Los Andes;1;Batallas;U2131
+2;La Paz;13;Los Andes;2;Laja;U2132
+2;La Paz;13;Los Andes;3;Pucarani;U2133
+2;La Paz;13;Los Andes;4;Puerto Pérez;U2134
+2;La Paz;14;Manco Kapac;1;Copacabana;U2141
+2;La Paz;14;Manco Kapac;2;San Pedro De Tiquina;U2142
+2;La Paz;14;Manco Kapac;3;Tito Yupanqui;U2143
+2;La Paz;15;Muñecas;1;Aucapata;U2151
+2;La Paz;15;Muñecas;2;Ayata;U2152
+2;La Paz;15;Muñecas;3;Chuma;U2153
+2;La Paz;16;Murillo;1;Achocalla;U2161
+2;La Paz;16;Murillo;2;El Alto;U2162
+2;La Paz;16;Murillo;3;Mecapaca;U2163
+2;La Paz;16;Murillo;4;Nuestra Señora De La Paz;U2164
+2;La Paz;16;Murillo;5;Palca;U2165
+2;La Paz;17;Nor Yungas;1;Coripata;U2171
+2;La Paz;17;Nor Yungas;2;Coroico;U2172
+2;La Paz;18;Omasuyos;1;Achacachi;U2181
+2;La Paz;18;Omasuyos;2;Chua Cocani;U2182
+2;La Paz;18;Omasuyos;3;Huarina;U2183
+2;La Paz;18;Omasuyos;4;Huatajata;U2184
+2;La Paz;18;Omasuyos;5;Santiago De Huata;U2185
+2;La Paz;18;Omasuyos;6;Villa Ancoraimes;U2186
+2;La Paz;19;Pacajes;1;Calacoto;U2191
+2;La Paz;19;Pacajes;2;Caquiaviri;U2192
+2;La Paz;19;Pacajes;3;Charaña;U2193
+2;La Paz;19;Pacajes;4;Comanche;U2194
+2;La Paz;19;Pacajes;5;Corocoro;U2195
+2;La Paz;19;Pacajes;6;Nazacara De Pacajes;U2196
+2;La Paz;19;Pacajes;7;Santiago De Callapa;U2197
+2;La Paz;19;Pacajes;8;Waldo Ballivián;U2198
+2;La Paz;20;Sud Yungas;1;Chulumani;U2201
+2;La Paz;20;Sud Yungas;2;Irupana;U2202
+2;La Paz;20;Sud Yungas;3;La Asunta;U2203
+2;La Paz;20;Sud Yungas;4;Palos Blancos;U2204
+2;La Paz;20;Sud Yungas;5;Yanacachi;U2205
+3;Cochabamba;1;Arani;1;Arani;U3011
+3;Cochabamba;1;Arani;2;Vacas;U3012
+3;Cochabamba;2;Arque;1;Arque;U3021
+3;Cochabamba;2;Arque;2;Tacopaya;U3022
+3;Cochabamba;3;Ayopaya;1;Ayopaya;U3031
+3;Cochabamba;3;Ayopaya;2;Cocapata;U3032
+3;Cochabamba;3;Ayopaya;3;Morochata;U3033
+3;Cochabamba;4;Bolívar;1;Bolívar;U3041
+3;Cochabamba;5;Campero;1;Aiquile;U3051
+3;Cochabamba;5;Campero;2;Omereque;U3052
+3;Cochabamba;5;Campero;3;Pasorapa;U3053
+3;Cochabamba;6;Capinota;1;Capinota;U3061
+3;Cochabamba;6;Capinota;2;Santiváñez;U3062
+3;Cochabamba;6;Capinota;3;Sicaya;U3063
+3;Cochabamba;7;Carrasco;1;Chimoré;U3071
+3;Cochabamba;7;Carrasco;2;Entre Ríos;U3072
+3;Cochabamba;7;Carrasco;3;Pocona;U3073
+3;Cochabamba;7;Carrasco;4;Pojo;U3074
+3;Cochabamba;7;Carrasco;5;Puerto Villarroel;U3075
+3;Cochabamba;7;Carrasco;6;Totora;U3076
+3;Cochabamba;8;Cercado;1;Cochabamba;U3081
+3;Cochabamba;9;Chapare;1;Colomi;U3091
+3;Cochabamba;9;Chapare;2;Sacaba;U3092
+3;Cochabamba;9;Chapare;3;Villa Tunari;U3093
+3;Cochabamba;10;Esteban Arce;1;Anzaldo;U3101
+3;Cochabamba;10;Esteban Arce;2;Arbieto;U3102
+3;Cochabamba;10;Esteban Arce;3;Sacabamba;U3103
+3;Cochabamba;10;Esteban Arce;4;Tarata;U3104
+3;Cochabamba;11;Germán Jordán;1;Cliza;U3111
+3;Cochabamba;11;Germán Jordán;2;Toco;U3112
+3;Cochabamba;11;Germán Jordán;3;Tolata;U3113
+3;Cochabamba;12;Mizque;1;Alalay;U3121
+3;Cochabamba;12;Mizque;2;Mizque;U3122
+3;Cochabamba;12;Mizque;3;Tioc-Raqaypampa;U3123
+3;Cochabamba;12;Mizque;4;Vila Vila;U3124
+3;Cochabamba;13;Punata;1;Punata;U3131
+3;Cochabamba;13;Punata;2;San Benito;U3132
+3;Cochabamba;13;Punata;3;Tacachi;U3133
+3;Cochabamba;13;Punata;4;Villa Gualberto Villarroel;U3134
+3;Cochabamba;13;Punata;5;Villa Rivero;U3135
+3;Cochabamba;14;Quillacollo;1;Colcapirhua;U3141
+3;Cochabamba;14;Quillacollo;2;Quillacollo;U3142
+3;Cochabamba;14;Quillacollo;3;Sipesipe;U3143
+3;Cochabamba;14;Quillacollo;4;Tiquipaya;U3144
+3;Cochabamba;14;Quillacollo;5;Vinto;U3145
+3;Cochabamba;15;Tapacarí;1;Tapacarí;U3151
+3;Cochabamba;16;Tiraque;1;Shinahota;U3161
+3;Cochabamba;16;Tiraque;2;Tiraque;U3162
+4;Oruro;1;Abaroa;1;Challapata;U4011
+4;Oruro;1;Abaroa;2;Santuario De Quillacas;U4012
+4;Oruro;2;Carangas;1;Choquecota;U4021
+4;Oruro;2;Carangas;2;Corque;U4022
+4;Oruro;3;Cercado;1;Caracollo;U4031
+4;Oruro;3;Cercado;2;El Choro;U4032
+4;Oruro;3;Cercado;3;Oruro;U4033
+4;Oruro;3;Cercado;4;Paria;U4034
+4;Oruro;4;Ladislao Cabrera;1;Pampa Aullagas;U4041
+4;Oruro;4;Ladislao Cabrera;2;Salinas De Garci Mendoza (Autonomía Indígena Originario Campesina De Salinas);U4042
+4;Oruro;5;Litoral;1;Cruz De Machacamarca;U4051
+4;Oruro;5;Litoral;2;Escara;U4052
+4;Oruro;5;Litoral;3;Esmeralda;U4053
+4;Oruro;5;Litoral;4;Huachacalla;U4054
+4;Oruro;5;Litoral;5;Yunguyo Del Litoral;U4055
+4;Oruro;6;Mejillones;1;Carangas;U4061
+4;Oruro;6;Mejillones;2;La Rivera;U4062
+4;Oruro;6;Mejillones;3;Todos Santos;U4063
+4;Oruro;7;Nor Carangas;1;Santiago De Huayllamarca;U4071
+4;Oruro;8;Pantaleón Dalence;1;Huanuni;U4081
+4;Oruro;8;Pantaleón Dalence;2;Machacamarca;U4082
+4;Oruro;9;Poopó;1;Antequera;U4091
+4;Oruro;9;Poopó;2;Pazña;U4092
+4;Oruro;9;Poopó;3;Poopó;U4093
+4;Oruro;10;Sabaya;1;Coipasa;U4101
+4;Oruro;10;Sabaya;2;Sabaya;U4102
+4;Oruro;10;Sabaya;3;Uru Chipaya (Nación Originaria Uru Chipaya);U4103
+4;Oruro;11;Sajama;1;Curahuara De Carangas;U4111
+4;Oruro;11;Sajama;2;Turco;U4112
+4;Oruro;12;San Pedro de Totora;1;Totora;U4121
+4;Oruro;13;Saucari;1;Toledo;U4131
+4;Oruro;14;Sebastián Pagador;1;Santiago De Huari;U4141
+4;Oruro;15;Sud Carangas;1;Andamarca;U4151
+4;Oruro;15;Sud Carangas;2;Belén De Andamarca;U4152
+4;Oruro;16;Tomás Barrón;1;Eucaliptus;U4161
+5;Potosí;1;Alonso De Ibáñez;1;Caripuyo;U5011
+5;Potosí;1;Alonso De Ibáñez;2;Sacaca;U5012
+5;Potosí;2;Antonio Quijarro;1;Porco;U5021
+5;Potosí;2;Antonio Quijarro;2;Tioc-Jatun Ayllu Yura;U5022
+5;Potosí;2;Antonio Quijarro;3;Tomave;U5023
+5;Potosí;2;Antonio Quijarro;4;Uyuni;U5024
+5;Potosí;3;Charcas;1;San Pedro;U5031
+5;Potosí;3;Charcas;2;Toro Toro;U5032
+5;Potosí;4;Chayanta;1;Colquechaca;U5041
+5;Potosí;4;Chayanta;2;Ocurí;U5042
+5;Potosí;4;Chayanta;3;Pocoata;U5043
+5;Potosí;4;Chayanta;4;Ravelo;U5044
+5;Potosí;4;Chayanta;5;San Pedro De Macha;U5045
+5;Potosí;5;Cornelio Saavedra;1;Betanzos;U5051
+5;Potosí;5;Cornelio Saavedra;2;Chaquí;U5052
+5;Potosí;5;Cornelio Saavedra;3;Tacobamba;U5053
+5;Potosí;6;Daniel Campos;1;Llica;U5061
+5;Potosí;6;Daniel Campos;2;Tahua;U5062
+5;Potosí;7;Enrique Baldivieso;1;San Agustín;U5071
+5;Potosí;8;General Bernardino Bilbao;1;Acasio;U5081
+5;Potosí;8;General Bernardino Bilbao;2;Arampampa;U5082
+5;Potosí;9;José María Linares;1;"Caiza ""D""";U5091
+5;Potosí;9;José María Linares;2;Ckochas;U5092
+5;Potosí;9;José María Linares;3;Puna;U5093
+5;Potosí;10;Modesto Omiste;1;Villazón;U5101
+5;Potosí;11;Nor Chichas;1;Cotagaita;U5111
+5;Potosí;11;Nor Chichas;2;Vitichi;U5112
+5;Potosí;12;Nor Lípez;1;"Colcha ""K""";U5121
+5;Potosí;12;Nor Lípez;2;San Pedro De Quemes;U5122
+5;Potosí;13;Rafael Bustillo;1;Chayanta;U5131
+5;Potosí;13;Rafael Bustillo;2;Chuquihuta Ayllu Jucumani;U5132
+5;Potosí;13;Rafael Bustillo;3;Llallagua;U5133
+5;Potosí;13;Rafael Bustillo;4;Uncía;U5134
+5;Potosí;14;Sur Chichas;1;Atocha;U5141
+5;Potosí;14;Sur Chichas;2;Tupiza;U5142
+5;Potosí;15;Sur Lípez;1;Mojinete;U5151
+5;Potosí;15;Sur Lípez;2;San Antonio De Esmoruco;U5152
+5;Potosí;15;Sur Lípez;3;San Pablo;U5153
+5;Potosí;16;Tomás Frías;1;Potosí;U5161
+5;Potosí;16;Tomás Frías;2;Tinguipaya;U5162
+5;Potosí;16;Tomás Frías;3;Urmiri;U5163
+5;Potosí;16;Tomás Frías;4;Yocalla;U5164
+6;Tarija;1;Arce;1;Bermejo;U6011
+6;Tarija;1;Arce;2;Padcaya;U6012
+6;Tarija;2;Avilez;1;Uriondo;U6021
+6;Tarija;2;Avilez;2;Yunchará;U6022
+6;Tarija;3;Cercado;1;Tarija;U6031
+6;Tarija;4;Gran Chaco;1;Caraparí;U6041
+6;Tarija;4;Gran Chaco;2;Villa Montes;U6042
+6;Tarija;4;Gran Chaco;3;Yacuiba;U6043
+6;Tarija;5;Méndez;1;El Puente;U6051
+6;Tarija;5;Méndez;2;San Lorenzo;U6052
+6;Tarija;6;O'Connor;1;Entre Ríos;U6061
+7;Santa Cruz;1;Andrés Ibáñez;1;Cotoca;U7011
+7;Santa Cruz;1;Andrés Ibáñez;2;El Torno;U7012
+7;Santa Cruz;1;Andrés Ibáñez;3;La Guardia;U7013
+7;Santa Cruz;1;Andrés Ibáñez;4;Porongo;U7014
+7;Santa Cruz;1;Andrés Ibáñez;5;Santa Cruz De La Sierra;U7015
+7;Santa Cruz;2;Ángel Sandoval;1;San Matías;U7021
+7;Santa Cruz;3;Chiquitos;1;Pailón;U7031
+7;Santa Cruz;3;Chiquitos;2;Roboré;U7032
+7;Santa Cruz;3;Chiquitos;3;San José;U7033
+7;Santa Cruz;4;Cordillera;1;Boyuibe;U7041
+7;Santa Cruz;4;Cordillera;2;Cabezas;U7042
+7;Santa Cruz;4;Cordillera;3;Camiri;U7043
+7;Santa Cruz;4;Cordillera;4;Charagua (Autonomía Guaraní Charagua Iyambae);U7044
+7;Santa Cruz;4;Cordillera;5;Cuevo;U7045
+7;Santa Cruz;4;Cordillera;6;Gutiérrez (Autonomía Indígena Kereimba Iyaambae);U7046
+7;Santa Cruz;4;Cordillera;7;Lagunillas;U7047
+7;Santa Cruz;5;Florida;1;Mairana;U7051
+7;Santa Cruz;5;Florida;2;Pampagrande;U7052
+7;Santa Cruz;5;Florida;3;Quirusillas;U7053
+7;Santa Cruz;5;Florida;4;Samaipata;U7054
+7;Santa Cruz;6;Germán Busch;1;El Carmen Rivero Tórrez;U7061
+7;Santa Cruz;6;Germán Busch;2;Puerto Quijarro;U7062
+7;Santa Cruz;6;Germán Busch;3;Puerto Suárez;U7063
+7;Santa Cruz;7;Guarayos;1;Ascención De Guarayos;U7071
+7;Santa Cruz;7;Guarayos;2;El Puente;U7072
+7;Santa Cruz;7;Guarayos;3;Urubichá;U7073
+7;Santa Cruz;8;Ichilo;1;Buena Vista;U7081
+7;Santa Cruz;8;Ichilo;2;San Carlos;U7082
+7;Santa Cruz;8;Ichilo;3;San Juan;U7083
+7;Santa Cruz;8;Ichilo;4;Yapacaní;U7084
+7;Santa Cruz;9;Manuel María Caballero;1;Comarapa;U7091
+7;Santa Cruz;9;Manuel María Caballero;2;Saipina;U7092
+7;Santa Cruz;10;Ñuflo de Chávez;1;Concepción;U7101
+7;Santa Cruz;10;Ñuflo de Chávez;2;Cuatro Cañadas;U7102
+7;Santa Cruz;10;Ñuflo de Chávez;3;San Antonio De Lomerio;U7103
+7;Santa Cruz;10;Ñuflo de Chávez;4;San Javier;U7104
+7;Santa Cruz;10;Ñuflo de Chávez;5;San Julián;U7105
+7;Santa Cruz;10;Ñuflo de Chávez;6;San Ramón;U7106
+7;Santa Cruz;11;Obispo Santistevan;1;Fernández Alonso;U7111
+7;Santa Cruz;11;Obispo Santistevan;2;General Saavedra;U7112
+7;Santa Cruz;11;Obispo Santistevan;3;Mineros;U7113
+7;Santa Cruz;11;Obispo Santistevan;4;Montero;U7114
+7;Santa Cruz;11;Obispo Santistevan;5;San Pedro;U7115
+7;Santa Cruz;12;Sara;1;Colpa Bélgica;U7121
+7;Santa Cruz;12;Sara;2;Portachuelo;U7122
+7;Santa Cruz;12;Sara;3;Santa Rosa;U7123
+7;Santa Cruz;13;Vallegrande;1;Moromoro;U7131
+7;Santa Cruz;13;Vallegrande;2;Postrervalle;U7132
+7;Santa Cruz;13;Vallegrande;3;Pucará;U7133
+7;Santa Cruz;13;Vallegrande;4;Trigal;U7134
+7;Santa Cruz;13;Vallegrande;5;Vallegrande;U7135
+7;Santa Cruz;14;Velasco;1;San Ignacio;U7141
+7;Santa Cruz;14;Velasco;2;San Miguel;U7142
+7;Santa Cruz;14;Velasco;3;San Rafael;U7143
+7;Santa Cruz;15;Warnes;1;Okinawa Uno;U7151
+7;Santa Cruz;15;Warnes;2;Warnes;U7152
+8;Beni;1;Cercado;1;San Javier;U8011
+8;Beni;1;Cercado;2;Trinidad;U8012
+8;Beni;2;General José Ballivián;1;Puerto Menor De Rurrenabaque;U8021
+8;Beni;2;General José Ballivián;2;Reyes;U8022
+8;Beni;2;General José Ballivián;3;San Borja;U8023
+8;Beni;2;General José Ballivián;4;Santa Rosa;U8024
+8;Beni;3;Iténez;1;Baures;U8031
+8;Beni;3;Iténez;2;Huacaraje;U8032
+8;Beni;3;Iténez;3;Magdalena;U8033
+8;Beni;4;Mamoré;1;Puerto Siles;U8041
+8;Beni;4;Mamoré;2;San Joaquín;U8042
+8;Beni;4;Mamoré;3;San Ramón;U8043
+8;Beni;5;Marbán;1;Loreto;U8051
+8;Beni;5;Marbán;2;San Andrés;U8052
+8;Beni;6;Moxos;1;San Ignacio;U8061
+8;Beni;7;Territorio Indígena Multiétnico;1;Tioc-Territorio Indígena Multiétnico;U8071
+8;Beni;8;Vaca Diez;1;Guayaramerín;U8081
+8;Beni;8;Vaca Diez;2;Riberalta;U8082
+8;Beni;9;Yacuma;1;Exaltación;U8091
+8;Beni;9;Yacuma;2;Santa Ana;U8092
+9;Pando;1;Abuná;1;Ingavi;U9011
+9;Pando;1;Abuná;2;Santa Rosa;U9012
+9;Pando;2;Federico Román;1;Nueva Esperanza;U9021
+9;Pando;2;Federico Román;2;Santos Mercado;U9022
+9;Pando;2;Federico Román;3;Villa Nueva;U9023
+9;Pando;3;Madre de Dios;1;Puerto Gonzalo Moreno;U9031
+9;Pando;3;Madre de Dios;2;San Lorenzo;U9032
+9;Pando;3;Madre de Dios;3;Sena;U9033
+9;Pando;4;Manuripi;1;Filadelfia;U9041
+9;Pando;4;Manuripi;2;Puerto Rico;U9042
+9;Pando;4;Manuripi;3;San Pedro;U9043
+9;Pando;5;Nicolás Suárez;1;Bella Flor;U9051
+9;Pando;5;Nicolás Suárez;2;Bolpebra;U9052
+9;Pando;5;Nicolás Suárez;3;Cobija;U9053
+9;Pando;5;Nicolás Suárez;4;Porvenir;U9054
