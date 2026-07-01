@@ -1,3 +1,4 @@
+![GeoCenso2024](complemento/GEOC.png)
 # GeoCenso2024
 
 **GeoCenso2024** es un complemento para QGIS orientado a facilitar el uso de información geoespacial relacionada con el Censo 2024 de Bolivia.
