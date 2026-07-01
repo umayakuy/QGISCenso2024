@@ -20,7 +20,7 @@ Permite descargar, organizar y vincular datos geoespaciales dentro de QGIS, faci
 
 ## Instalación
 
-La instalación aún es manual, en proceso de aprobación en complementos de QGIS
+Debe descargarse de este repositorio e instalar manualmente por ZIP dentro de QGIS.
 
 ## Base de Datos
 
