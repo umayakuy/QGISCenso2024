@@ -30,3 +30,10 @@ Base de datos sistematizada a partir de las fichas resumen descargadas desde el 
 En el formato original de los datos del Censo, las poblaciones rurales se encuentran representadas mediante puntos, mientras que las poblaciones urbanas están representadas mediante polígonos. Con fines de análisis y estandarización, la base principal fue uniformizada a una representación puntual.
 
 Para ello, se generaron centroides a partir de los grupos de polígonos que representaban poblaciones urbanas, consolidando sus atributos y sumando los datos correspondientes. De esta manera, cada población urbana queda representada por un punto único con información agregada.
+
+## Aviso importante
+Este complemento no es oficial. Para uso técnico, académico o institucional, la información debe validarse previamente con las plataformas oficiales del INE.
+
+## Autor
+Sistematizado y desarrollado por:
+Ing. MSc. Jorge Ayala Niño de Guzmán
