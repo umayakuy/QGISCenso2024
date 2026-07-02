@@ -2,7 +2,7 @@
 name=GeoCenso2024
 description=QGIS plugin to access, download and link geospatial information from the 2024 Census of Bolivia.
 about=GeoCenso2024 permite acceder a mapas, bases de datos y capas geoespaciales relacionadas con el Censo Nacional de Población y Vivienda 2024 de Bolivia. El complemento permite descargar información desde repositorios externos, organizar archivos en caché local y vincular datos censales con capas cargadas en QGIS. Este complemento no es oficial; la información debe validarse con las plataformas oficiales del INE para uso técnico, académico o institucional.
-version=1.9.0
+version=1.9.2
 qgisMinimumVersion=3.44
 qgisMaximumVersion=4.99
 author=Ing. MSc. Jorge Ayala Niño de Guzmán

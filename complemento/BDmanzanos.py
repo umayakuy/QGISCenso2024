@@ -5,13 +5,12 @@ import os
 import re
 import csv
 import tempfile
-import urllib.request
-import urllib.error
+from .net_download import download_url_to_file, HttpDownloadError
 
 from qgis.PyQt.QtGui import QPixmap
 from qgis.PyQt.QtCore import Qt
 
-from qt_compat import (
+from .qt_compat import (
     QVariant,
     QT_ALIGN_CENTER,
     QT_ALIGN_LEFT,
@@ -228,17 +227,7 @@ def descargar_archivo_github(file_codigo, cod_alternativo=None):
                 return ruta_local, url, codigo
 
             try:
-                solicitud = urllib.request.Request(
-                    url,
-                    headers={"User-Agent": "QGIS-Censo2024"}
-                )
-                with urllib.request.urlopen(solicitud, timeout=90) as respuesta:
-                    with open(ruta_local, "wb") as salida:
-                        while True:
-                            bloque = respuesta.read(1024 * 1024)
-                            if not bloque:
-                                break
-                            salida.write(bloque)
+                download_url_to_file(url, ruta_local, timeout_ms=90000)
 
                 if not os.path.exists(ruta_local) or os.path.getsize(ruta_local) == 0:
                     ultimo_error = "El archivo descargado está vacío: {}".format(url)
@@ -246,7 +235,7 @@ def descargar_archivo_github(file_codigo, cod_alternativo=None):
 
                 return ruta_local, url, codigo
 
-            except urllib.error.HTTPError as error:
+            except HttpDownloadError as error:
                 ultimo_error = "HTTP {} al consultar {}".format(error.code, url)
                 if error.code == 404:
                     continue
@@ -1644,18 +1633,28 @@ class Censo2024Dialog(QDialog):
 # EJECUTAR VENTANA EN QGIS
 # ==========================================================
 
-try:
-    CENSO2024_DLG.close()
-except Exception:
-    pass
+def run(iface_obj=None):
+    """Abre la ventana principal de este módulo desde el complemento."""
+    global CENSO2024_DLG
+    if iface_obj is not None:
+        globals()["iface"] = iface_obj
 
-try:
-    CENSO2024_DLG = Censo2024Dialog(obtener_ventana_qgis())
-    CENSO2024_DLG.show()
+    try:
+        CENSO2024_DLG.close()
+    except Exception:
+        pass
 
-except Exception as error:
-    QMessageBox.critical(
-        None,
-        "Error CENSO 2024",
-        str(error)
-    )
+    try:
+        CENSO2024_DLG = Censo2024Dialog(obtener_ventana_qgis())
+        CENSO2024_DLG.show()
+
+    except Exception as error:
+        QMessageBox.critical(
+            None,
+            "Error CENSO 2024",
+            str(error)
+        )
+
+
+if __name__ == "__main__":
+    run(globals().get("iface", None))

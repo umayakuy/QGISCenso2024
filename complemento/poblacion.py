@@ -4,11 +4,11 @@ import csv
 import os
 import re
 import tempfile
-import urllib.request
+from .net_download import download_url_to_file
 
 from qgis.PyQt.QtGui import QPixmap
 
-from qt_compat import (
+from .qt_compat import (
     QT_ALIGN_CENTER,
     QT_KEEP_ASPECT_RATIO,
     QT_SMOOTH_TRANSFORMATION,
@@ -117,7 +117,7 @@ def descargar_desde_urls_posibles(urls_posibles, ruta_temporal):
 
     for url in urls_posibles:
         try:
-            urllib.request.urlretrieve(url, ruta_temporal)
+            download_url_to_file(url, ruta_temporal, timeout_ms=90000)
 
             if not os.path.exists(ruta_temporal):
                 raise Exception("No se pudo crear el archivo temporal.")
@@ -810,21 +810,30 @@ class Censo2024Dialog(QDialog):
 # EJECUTAR VENTANA EN QGIS
 # ==========================================================
 
-try:
-    CENSO2024_DLG.close()
-except Exception:
-    pass
+def run(iface_obj=None):
+    """Abre la ventana principal de este módulo desde el complemento."""
+    global CENSO2024_DLG
+    if iface_obj is not None:
+        globals()["iface"] = iface_obj
 
-try:
-    CENSO2024_DLG = Censo2024Dialog(
-        RUTA_CSV,
-        obtener_ventana_qgis()
-    )
-    CENSO2024_DLG.show()
+    try:
+        CENSO2024_DLG.close()
+    except Exception:
+        pass
 
-except Exception as error:
-    QMessageBox.critical(
-        None,
-        "Error CENSO 2024",
-        str(error)
-    )
+    try:
+        CENSO2024_DLG = Censo2024Dialog(
+            RUTA_CSV,
+            obtener_ventana_qgis()
+        )
+        CENSO2024_DLG.show()
+
+    except Exception as error:
+        QMessageBox.critical(
+            None,
+            "Error CENSO 2024",
+            str(error)
+        )
+
+if __name__ == "__main__":
+    run(globals().get("iface", None))

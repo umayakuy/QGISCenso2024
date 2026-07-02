@@ -4,7 +4,7 @@ import os
 
 from qgis.PyQt.QtGui import QPixmap
 
-from qt_compat import (
+from .qt_compat import (
     QT_ALIGN_CENTER,
     QT_ALIGN_LEFT,
     QT_ALIGN_JUSTIFY,
@@ -160,20 +160,30 @@ class Censo2024Dialog(QDialog):
 # EJECUTAR VENTANA EN QGIS
 # ==========================================================
 
-try:
-    CENSO2024_DLG.close()
-except Exception:
-    pass
+def run(iface_obj=None):
+    """Abre la ventana principal de este módulo desde el complemento."""
+    global CENSO2024_DLG
+    if iface_obj is not None:
+        globals()["iface"] = iface_obj
 
-try:
-    CENSO2024_DLG = Censo2024Dialog(
-        obtener_ventana_qgis()
-    )
-    CENSO2024_DLG.show()
+    try:
+        CENSO2024_DLG.close()
+    except Exception:
+        pass
 
-except Exception as error:
-    QMessageBox.critical(
-        None,
-        "Error CENSO 2024",
-        str(error)
-    )
+    try:
+        CENSO2024_DLG = Censo2024Dialog(
+            obtener_ventana_qgis()
+        )
+        CENSO2024_DLG.show()
+
+    except Exception as error:
+        QMessageBox.critical(
+            None,
+            "Error CENSO 2024",
+            str(error)
+        )
+
+
+if __name__ == "__main__":
+    run(globals().get("iface", None))

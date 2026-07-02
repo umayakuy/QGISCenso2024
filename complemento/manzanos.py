@@ -6,7 +6,7 @@ import re
 
 from qgis.PyQt.QtGui import QPixmap
 
-from qt_compat import (
+from .qt_compat import (
     QT_ALIGN_CENTER,
     QT_KEEP_ASPECT_RATIO,
     QT_SMOOTH_TRANSFORMATION,
@@ -574,9 +574,7 @@ class Censo2024Dialog(QDialog):
         """
 
         import tempfile
-        import urllib.error
-        import urllib.parse
-        import urllib.request
+        from .net_download import download_url_to_file, HttpDownloadError, DownloadError
 
         from qgis.core import (
             QgsFeature,
@@ -616,7 +614,7 @@ class Censo2024Dialog(QDialog):
             "https://raw.githubusercontent.com/"
             "umayakuy/QGISCenso2024/main/data/poligonos"
         )
-        url_archivo = f"{url_base}/{urllib.parse.quote(archivo)}"
+        url_archivo = f"{url_base}/{archivo}"
 
         try:
             carpeta_temp = os.path.join(
@@ -627,14 +625,7 @@ class Censo2024Dialog(QDialog):
 
             ruta_local = os.path.join(carpeta_temp, archivo)
 
-            with urllib.request.urlopen(url_archivo, timeout=90) as respuesta:
-                if respuesta.status != 200:
-                    raise RuntimeError(
-                        f"GitHub respondió con estado HTTP {respuesta.status}."
-                    )
-
-                with open(ruta_local, "wb") as salida:
-                    salida.write(respuesta.read())
+            download_url_to_file(url_archivo, ruta_local, timeout_ms=90000)
 
             capa_origen = QgsVectorLayer(ruta_local, archivo, "ogr")
 
@@ -864,7 +855,7 @@ class Censo2024Dialog(QDialog):
             # Cerramos la ventana después de aceptar la ventana informativa.
             self.close()
 
-        except urllib.error.HTTPError as error:
+        except HttpDownloadError as error:
             QMessageBox.critical(
                 self,
                 "Archivo no encontrado en GitHub",
@@ -874,7 +865,7 @@ class Censo2024Dialog(QDialog):
                 f"Detalle: HTTP {error.code}"
             )
 
-        except urllib.error.URLError as error:
+        except DownloadError as error:
             QMessageBox.critical(
                 self,
                 "Error de conexión",
@@ -899,22 +890,32 @@ class Censo2024Dialog(QDialog):
 # EJECUTAR VENTANA EN QGIS
 # ==========================================================
 
-try:
-    CENSO2024_DLG.close()
-except Exception:
-    pass
+def run(iface_obj=None):
+    """Abre la ventana principal de este módulo desde el complemento."""
+    global CENSO2024_DLG
+    if iface_obj is not None:
+        globals()["iface"] = iface_obj
 
-try:
-    CENSO2024_DLG = Censo2024Dialog(
-        RUTA_CSV,
-        RUTA_CODLISTA,
-        obtener_ventana_qgis()
-    )
-    CENSO2024_DLG.show()
+    try:
+        CENSO2024_DLG.close()
+    except Exception:
+        pass
 
-except Exception as error:
-    QMessageBox.critical(
-        None,
-        "Error CENSO 2024",
-        str(error)
-    )
+    try:
+        CENSO2024_DLG = Censo2024Dialog(
+            RUTA_CSV,
+            RUTA_CODLISTA,
+            obtener_ventana_qgis()
+        )
+        CENSO2024_DLG.show()
+
+    except Exception as error:
+        QMessageBox.critical(
+            None,
+            "Error CENSO 2024",
+            str(error)
+        )
+
+
+if __name__ == "__main__":
+    run(globals().get("iface", None))
