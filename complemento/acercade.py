@@ -30,7 +30,7 @@ from qgis.PyQt.QtWidgets import (
 # Guardar el archivo GEOC.jpg en C:\INE\GEOC.jpg
 RUTA_LOGO = os.path.join(os.path.dirname(__file__), "GEOC.jpg")
 
-TITULO_MODULO = "Acerca de GeoCenso2024 v1.9"
+TITULO_MODULO = "Acerca de GeoCenso2024 v1.9.2"
 
 TEXTO_INFORMACION = """Esta aplicación es un complemento para QGIS desarrollado con el propósito de facilitar la consulta, visualización y análisis territorial de información del Censo de Población y Vivienda 2024 de Bolivia.
 
