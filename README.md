@@ -37,3 +37,6 @@ Este complemento no es oficial. Para uso técnico, académico o institucional, l
 ## Autor
 Sistematizado y desarrollado por:
 Ing. MSc. Jorge Ayala Niño de Guzmán
+
+## Licencia
+Este proyecto se distribuye bajo una licencia compatible con GPL para su publicación como complemento de QGIS.
